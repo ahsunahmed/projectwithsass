@@ -1,0 +1,32 @@
+/* ========= Portfolio CSS ======== */
+.portfolio{
+    margin-top: 30px;
+    .single-porfolio {
+        width: 380px;
+        height: 250px;
+        float: left;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        &:nth-child(3),
+        &:last-child{
+            margin-right: 0;
+          }
+        
+        h4 {
+            font-size: 22px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+            width: 100%;
+          }
+    
+        
+      }
+}

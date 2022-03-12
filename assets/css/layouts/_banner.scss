@@ -1,0 +1,19 @@
+/* ======= Banner CSS ======= */
+.banner-area{
+    margin-top: 60px;
+    .banner-content{
+        color: #fff;
+        h2{
+            font-size: 45px;
+        }
+        p {
+            font-size: 14px;
+            max-width: 500px;
+            margin: 20px auto;
+        }
+        a{
+            margin: 6px 10px;
+        }
+    }
+}
+

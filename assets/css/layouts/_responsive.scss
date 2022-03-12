@@ -1,0 +1,364 @@
+/* ================= Responsive CSS ================ */
+/* ======= Medium Screen ======= */
+@media only screen and (max-width:1200px) and (min-width:992px){
+    .main{
+        width: 800px;
+        margin: 0 auto;
+    }
+    .header-area{
+        .menu {
+            width: 527px;
+        }
+    } 
+    .section-title{
+        h4{
+            font-size: 40px;
+            margin-bottom: 18px;
+        }
+        p{
+            font-size: 16px;
+            max-width: 480px;
+        }
+    }
+    .about{
+        .single {
+            max-width: 250px;
+            margin-right: 24px;
+            
+        }
+    }
+    .single-service {
+        max-width: 370px;
+        &:nth-child(2){
+            margin-right: 0;
+        }
+        &:nth-child(3){
+            margin-right: 30px !important;
+        }
+        &:nth-child(4){
+            margin-right: 0;
+        }
+        
+    }
+    .portfolio{
+        .single-porfolio {
+            width: 385px;
+            &:nth-child(2){
+                margin-right: 0;
+            }
+            &:nth-child(3){
+                margin-right: 30px;
+            }
+            &:nth-child(4){
+                margin-right: 0;
+            }
+        } 
+    
+    } 
+    .blog-area{
+        .blogs{
+            .single-blog {
+                width: 246px;
+            }
+        }
+    }
+    .contact-top{
+        .contact-icon{
+            i {
+                font-size: 28px;
+                margin-bottom: 10px;
+            }
+            h4{
+                font-size: 20px;
+                span{
+                    font-size: 16px;
+                }
+            }
+
+        } 
+    }
+    .contact-bottom{
+        .contact-form{
+            width: 458px;
+        }
+        .contact-map{
+            width: 320px;
+        }
+    }  
+}
+
+/* ============ Tablet Screen ========== */
+@media only screen and (max-width:991px){
+    .header-area{
+        .header{
+            .logo{
+                a{
+                    font-size: 20px;
+                }
+            }
+            .menu {
+                width: 427px;
+                i{
+                 display: block;
+                 font-size: 25px;
+                 color: $primary_color;
+                 position: absolute;
+                 top: 20px;
+                 right: 40px;  
+                }
+                ul#sideNav {
+                    position: absolute;
+                    top: 100%;
+                    right: -280px;
+                    z-index: 3;
+                    background: $white;
+                    text-align: left;
+                    height: 100vh;
+                    line-height: 40px;
+                    li{
+                        display: block;
+                        margin: 20px 0;
+                        padding: 0 80px;
+                    }
+                }
+                
+            }
+        }
+        
+    }
+}
+@media only screen and (max-width:991px) and (min-width:768px){
+    .main{
+        width: 700px;
+    }
+    .about{
+        .single {
+            float:none;
+            max-width: 478px;
+            margin: 0 auto 30px;
+            &:last-child{
+                margin-right: 111px;
+            }
+        }
+    }
+    .services{
+        .single-service {
+            max-width: 400px;
+            float: none;
+            margin: 0 auto 30px;
+            &:nth-child(3),
+            &:last-child{
+                margin-right: 150px;
+            }
+        } 
+    } 
+    .portfolio{
+        .single-porfolio {
+            float: none;
+            margin: 0 auto 30px;
+            &:nth-child(3),
+            &:last-child{
+                margin-right: 160px;
+            }
+        }
+    
+    }
+    .blog-area{
+        .blogs{
+            .single-blog {
+                float: none;
+                margin: 0 auto 30px;
+                &:last-child{
+                    margin-right: 160px;
+                }
+            }
+        }
+    }  
+    .contact-top{
+        .contact-icon {
+            display: inline-block;
+            margin-right: 60px;
+            i{
+                font-size: 28px;
+                margin-bottom: 10px;
+            }
+            h4{
+                font-size: 20px;
+                span{
+                    font-size: 16px;
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+    .contact-bottom{
+        .contact-form {
+            width: 600px;
+            float: none;
+            margin: 0 auto;
+            input[type="submit"] {
+                padding: 8px 30px;
+                font-size: 16px;
+                font-weight: 600;
+            }
+        } 
+        .contact-map {
+            width: 600px;
+            float: none;
+            margin: 0 auto;
+        }
+    } 
+ }
+
+
+ /* ============= Mobile Screen ============== */
+ @media only screen and (max-width:767px) and (min-width:360px){
+     .main{
+         width: 300px;
+     }
+     .header-area{
+         .logo{
+             width: 204px;
+             a{
+                 font-size: 20px;
+             }
+         }
+        .menu {
+            width: 60px;
+        }
+    }
+   
+    .banner-content{
+        h2 {
+            font-size: 40px;
+            line-height: 40px;
+        }
+        a{
+            margin: 6px auto;
+        }
+    }
+    .btn{
+        font-size: 16px;
+    }
+    .section-title{
+        h4{
+            font-size: 34px;
+            margin-bottom: 14px;
+            padding-bottom: 24px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+    .about-area{
+        padding: 50px 0;
+        .about{
+            .single {
+                float: none;
+                margin-right: 0;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    
+    .service-area{
+        padding: 50px 0;
+        .services{
+            .single-service{
+                margin-right: 0;
+            }  
+        }
+    }
+     
+    .portfolio-area{
+        padding: 50px 0;
+        .portfolio{
+            .single-porfolio {
+                width: 294px;
+                height: 230px;
+                float: none;
+                margin: 0 auto 30px;
+                &:nth-child(3),
+                &:last-child{
+                    margin-right: 3px;
+                }
+                h4{
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+     
+    .cta-area{
+        padding: 50px 0;
+        .cta{
+            h4{
+                font-size: 30px;
+            }
+            p {
+                padding: 14px 0;
+                max-width: 300px;
+                font-size: 14px;
+            }
+        }
+    }
+    
+    .blog-area{
+        padding: 50px 0;
+        .blogs{
+            .single-blog {
+                width: 300px;
+                float: none;
+                margin: 0 auto 30px;
+                .blog-content{
+                    h4{
+                        font-size: 20px;
+                        margin: 10px auto;
+                    }
+                }
+            }
+        }
+    }
+    .contact-area{
+        padding: 50px 0;
+        .contact-top{
+            .contact-icon {
+                margin-right: 0;
+                margin-bottom: 30px;
+                i{
+                    font-size: 30px;
+                    margin-bottom: 10px;
+                }
+                h4{
+                    font-size: 20px;
+                    span{
+                        font-size: 16px;
+                        margin-top: 0;
+                    }
+                }
+    
+            }
+        } 
+        .contact-bottom{
+            .contact-form {
+                width: 300px;
+                float: none;
+                margin-right: 0;
+            }
+            .contact-map{
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
+    
+    .footer-area{
+        padding: 16px 0;
+        p{
+            font-size: 14px;
+        }
+    }
+    
+ }
+    
